@@ -21,12 +21,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Freshbitsweb\\LaravelLogEnhancer\\": "src/"
+            "karmadice\\LaravelLogEnhancer\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Freshbitsweb\\LaravelLogEnhancer\\Test\\": "tests"
+            "karmadice\\LaravelLogEnhancer\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Freshbitsweb\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+                "karmadice\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
             ]
         }
     }
